@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoCSharp.Basico", "IntroducaoCSharp.Basico\IntroducaoCSharp.Basico.csproj", "{5E975B46-F960-4312-9E7E-61B41B8B7A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoCSharp.EstruturasControle", "IntroducaoCSharp.EstruturasControle\IntroducaoCSharp.EstruturasControle.csproj", "{E7FB2D8C-0C85-4431-8605-A1D9EB46D583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoCSharp.EstruturasRepeticao", "IntroducaoCSharp.EstruturasRepeticao\IntroducaoCSharp.EstruturasRepeticao.csproj", "{FC29175E-2DB3-42B9-B626-6B6388434593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoCSharp.Colecoes", "IntroducaoCSharp.Colecoes\IntroducaoCSharp.Colecoes.csproj", "{D0E2E1D5-AE3A-41D2-BFC4-74CDF02E5878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoCSharp.Metodos", "IntroducaoCSharp.Metodos\IntroducaoCSharp.Metodos.csproj", "{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E975B46-F960-4312-9E7E-61B41B8B7A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E975B46-F960-4312-9E7E-61B41B8B7A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E975B46-F960-4312-9E7E-61B41B8B7A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E975B46-F960-4312-9E7E-61B41B8B7A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FB2D8C-0C85-4431-8605-A1D9EB46D583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FB2D8C-0C85-4431-8605-A1D9EB46D583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FB2D8C-0C85-4431-8605-A1D9EB46D583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FB2D8C-0C85-4431-8605-A1D9EB46D583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC29175E-2DB3-42B9-B626-6B6388434593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC29175E-2DB3-42B9-B626-6B6388434593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC29175E-2DB3-42B9-B626-6B6388434593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC29175E-2DB3-42B9-B626-6B6388434593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E2E1D5-AE3A-41D2-BFC4-74CDF02E5878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E2E1D5-AE3A-41D2-BFC4-74CDF02E5878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E2E1D5-AE3A-41D2-BFC4-74CDF02E5878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E2E1D5-AE3A-41D2-BFC4-74CDF02E5878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
