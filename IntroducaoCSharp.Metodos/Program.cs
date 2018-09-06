@@ -30,17 +30,20 @@ namespace IntroducaoCSharp.Metodos
             Console.WriteLine(dobroDe6); // Imprime 12
             int mediaDe6e8 = Media(6, 8);
             Console.WriteLine(mediaDe6e8); // Imprime 7
+
+            var teste = Dobro(8);
         }
 
         static void Hello()
         {
             Console.WriteLine("Olá, mundo!");
         }
-
+        
         static int DoisMaisDois()
         {
             int valor = 2 + 2;
             return valor;
+
         }
 
         static int Dobro(int valor)

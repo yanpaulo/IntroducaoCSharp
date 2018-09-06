@@ -4,18 +4,7 @@ namespace IntroducaoCSharp.EstruturasControle
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            int n = 0;
-            while (n <= 10)
-            {
-                Console.WriteLine("Hello, World!");
-                n++; // n = n + 1;
-            }
-
-        }
-
-        private static void Senha()
+        static void Main()
         {
             string senha = "1234";
             string entrada = Console.ReadLine();
@@ -23,6 +12,10 @@ namespace IntroducaoCSharp.EstruturasControle
             if (entrada == senha)
             {
                 Console.WriteLine("Senha CORRETA!!!");
+            }
+            else
+            {
+                Console.WriteLine("Senha INCORRETA");
             }
         }
     }

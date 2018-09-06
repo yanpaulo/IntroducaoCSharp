@@ -90,11 +90,11 @@ namespace IntroducaoCSharp.Colecoes
             lista = new List<int>() { 9, 6, 3, 8, 15 }; //Cria uma lista com elementos
 
             //Operações de Lista:
-            lista.Insert(2, 15); //Insere o valor 15 depois da posição de íncide 2. A lista do exemplo se tornará { 9, 6, 3, 2, 8, 15 }
-            lista.Add(9); //Adiciona o valor 9 no final da lista. A lista do exemplo se tornará { 9, 6, 3, 2, 8, 15, 16 }
-            lista.RemoveAt(0); //Remove o elemento na posição de índice 0. A lista do exemplo se tornará { 6, 3, 2, 8, 15, 16 }
+            lista.Insert(2, 15); //Insere o valor 15 depois da posição de íncide 2. A lista do exemplo se tornará { 9, 6, 15, 3, 8, 15 }
+            lista.Add(9); //Adiciona o valor 9 no final da lista. A lista do exemplo se tornará { 9, 6, 15, 3, 8, 15, 9 }
+            lista.RemoveAt(0); //Remove o elemento na posição de índice 0. A lista do exemplo se tornará { 6, 15, 3, 8, 15, 9 }
             lista.AddRange(array); //Adiciona todos os elementos  da coleção chamada "array" (no caso a array do exemplo anterior) ao final da lista.
-                                   //A lista do exemplo se tornará { 6, 3, 2, 8, 15, 16, 9, 6, 3, 8, 15 }!!!!
+                                   //A lista do exemplo se tornará { 6, 15, 3, 8, 15, 9, 9, 6, 3, 8, 15 }!!!!
 
             //Estruturas de repetição podem ser utilizadas em Listas tal qual são usadas em arrays, e com a mesma sintaxe:
             foreach (var n in lista)

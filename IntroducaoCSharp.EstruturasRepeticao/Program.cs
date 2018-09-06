@@ -13,7 +13,7 @@ namespace IntroducaoCSharp.EstruturasRepeticao
             string resposta = "s";
 
             //Estrutura "while"
-            while (resposta == "s")
+            while (resposta == "s" || resposta == "S")
             {
                 string nome = Console.ReadLine();
                 Console.WriteLine($"Olá, {nome}!");
@@ -22,8 +22,6 @@ namespace IntroducaoCSharp.EstruturasRepeticao
                 resposta = Console.ReadLine();
             }
             resposta = ""; // "Reseta" resposta para uma string vazia.
-
-
 
             //Estrutura "do...while"
             do
@@ -36,10 +34,9 @@ namespace IntroducaoCSharp.EstruturasRepeticao
             } while (resposta == "s");
 
 
-
             int[] numeros = { 1, 2, 3, 4, 5 };
             int soma = 0;
-
+            
             //Estrutura "for"
             for (int i = 0; i < numeros.Length; i++)
             {

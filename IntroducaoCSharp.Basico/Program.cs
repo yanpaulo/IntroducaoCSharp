@@ -12,7 +12,7 @@ namespace IntroducaoCSharp.Basico
             //Exemplo 1.2: Declaração de variáveis
             int m;
             int n, o;
-            
+
             //Exemplo 1.3: Operações de atribuição
             m = 10;
             n = 20;
@@ -27,10 +27,10 @@ namespace IntroducaoCSharp.Basico
             
             //Exemplo 1.5: Atribuição de retorno de método
             string a = Console.ReadLine();
-            
-            //Exemplo 1.6: Conversão de texto para número inteiro seguid de atribuição
+
+            //Exemplo 1.6: Conversão de texto para número inteiro seguido de atribuição
             int x = int.Parse(a);
-            
+
             //Exemplo 1.7: Expressão com a própria variável a ser atribuída
             x = x + 10;
             x += 10; //Atalho equivalente à expressão acima
