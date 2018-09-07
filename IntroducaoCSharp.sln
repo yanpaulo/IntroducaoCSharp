@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoCSharp.Colecoes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoCSharp.Metodos", "IntroducaoCSharp.Metodos\IntroducaoCSharp.Metodos.csproj", "{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoCSharp.OO", "IntroducaoCSharp.OO\IntroducaoCSharp.OO.csproj", "{24347C40-6617-4EE0-A7B9-BCB0F74F905D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B127CFF-AC7A-4E57-B6AC-C7BD16F2BF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24347C40-6617-4EE0-A7B9-BCB0F74F905D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24347C40-6617-4EE0-A7B9-BCB0F74F905D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24347C40-6617-4EE0-A7B9-BCB0F74F905D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24347C40-6617-4EE0-A7B9-BCB0F74F905D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
