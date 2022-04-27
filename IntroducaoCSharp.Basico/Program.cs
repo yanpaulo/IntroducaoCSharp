@@ -23,7 +23,7 @@ namespace IntroducaoCSharp.Basico
 
             //Exemplo 1.4: Declaração com atribuição
             int p = 10;
-            int q = 20, r = 30;
+            int q = 20, r = 30; //Esta linha irá gerar warning do compilador, mas não representa erros e o código funcionará normalmente.
             
             //Exemplo 1.5: Atribuição de retorno de método
             string a = Console.ReadLine();
