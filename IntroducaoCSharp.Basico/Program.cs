@@ -11,7 +11,7 @@ namespace IntroducaoCSharp.Basico
 
             //Exemplo 1.2: Declaração de variáveis
             int m;
-            int n, o;
+            int n, o, p;
 
             //Exemplo 1.3: Operações de atribuição
             m = 10;
